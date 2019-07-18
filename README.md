@@ -1,4 +1,4 @@
-# server-planner (PHP)
+# server-planning (PHP)
 
 This package provides you an easy-to-use vServer calculator which calculates how many bare-metal servers it would need to fit the vServer expectations.
 
