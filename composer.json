@@ -1,0 +1,27 @@
+{
+    "name": "isikemre/server-planning",
+    "description": "This package provides you an easy-to-use vServer calculator which calculates how many bare-metal servers it would need to fit the vServer expectations",
+    "type": "library",
+    "license": "Apache License 2.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Emre Isik",
+            "email": "e.isik27@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-0": {
+            "ServerPlanning": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    }
+}
